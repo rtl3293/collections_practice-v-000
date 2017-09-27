@@ -39,3 +39,5 @@ def kesha_maker(array)
     name.tr(name[2], '$')
   end
 end
+
+def find_a(array)
