@@ -30,6 +30,6 @@ end
 #   array[to] = second_position
 # end
 
-def reverse_array()
+def reverse_array(array)
   return array.reverse
 end
