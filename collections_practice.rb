@@ -23,9 +23,9 @@ def swap_elements(array)
   array
 end
 
-def swap_elements_from_to(array, from, to)
-  first_position = array[from]
-  second_position = array[to]
-  array[from] = second_position
-  array[to] = second_position
-end
+# def swap_elements_from_to(array, from, to)
+#   first_position = array[from]
+#   second_position = array[to]
+#   array[from] = second_position
+#   array[to] = second_position
+# end
