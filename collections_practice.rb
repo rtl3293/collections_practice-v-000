@@ -40,3 +40,5 @@ def kesha_maker(array)
     name[2] = '$'
   end
 end
+
+kesha_maker(["blake", "ashley", "scott"])
