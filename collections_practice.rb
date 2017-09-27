@@ -44,6 +44,8 @@ def find_a(array)
   array.collect do |name|
     if name[0] == "a"
       name
+    else
+      return
     end
   end
 end
