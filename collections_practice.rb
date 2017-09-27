@@ -42,7 +42,7 @@ end
 
 def find_a(array)
   array.collect do |name|
-    if name.start_with?("a")
+    if name.start_with?("a") == true
       name
   end
 end
