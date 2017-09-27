@@ -36,8 +36,7 @@ end
 
 def kesha_maker(array)
   array.collect do |name|
-    binding.pry
-    name[2] = '$'
+    name.tr(name[2], '$')
   end
 end
 
