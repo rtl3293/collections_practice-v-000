@@ -29,3 +29,7 @@ end
 #   array[from] = second_position
 #   array[to] = second_position
 # end
+
+def reverse_array()
+  return array.reverse
+end
