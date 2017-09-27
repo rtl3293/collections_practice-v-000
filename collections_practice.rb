@@ -39,5 +39,3 @@ def kesha_maker(array)
     name.tr(name[2], '$')
   end
 end
-
-kesha_maker(["blake", "ashley", "scott"])
